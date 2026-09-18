@@ -8,5 +8,10 @@
       "command": "COREPACK_ENABLE_DOWNLOAD_PROMPT=0 corepack pnpm@10.17.1 dev"
     }
   ],
-  "ports": [3000]
+  "ports": [
+    {
+      "name": "next-dev",
+      "port": 3000
+    }
+  ]
 }
