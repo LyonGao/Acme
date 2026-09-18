@@ -1,0 +1,12 @@
+{
+  "name": "Acme Dashboard (Next.js Learn)",
+  "install": "bash .cursor/install.sh",
+  "start": "bash .cursor/start.sh",
+  "terminals": [
+    {
+      "name": "next-dev",
+      "command": "COREPACK_ENABLE_DOWNLOAD_PROMPT=0 corepack pnpm@10.17.1 dev"
+    }
+  ],
+  "ports": [3000]
+}
